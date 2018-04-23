@@ -1,0 +1,1 @@
+usb_cdc_virtual_com_port\startup_stm32f303xc.o: startup_stm32f303xc.s
