@@ -113,14 +113,12 @@ int main(void)
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
   {
 		CDC_Transmit_FS(mystring, strlen((const char*)mystring));
 		HAL_Delay(1000);
 
   }
-  /* USER CODE END 3 */
 
 }
 
