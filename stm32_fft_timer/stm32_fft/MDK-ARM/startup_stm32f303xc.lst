@@ -641,11 +641,12 @@ ARM Macro Assembler    Page 10
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=stm32_fft\startup_stm32f303xc.d -ostm32_fft\startup_stm32f303xc
-.o -IH:\stm32_fft_timer\stm32_fft\MDK-ARM\RTE -IC:\Keil_v5_crack\ARM\PACK\ARM\C
-MSIS\4.5.0\CMSIS\Include -IC:\Keil_v5_crack\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\D
-rivers\CMSIS\Device\ST\STM32F3xx\Include --predefine="__MICROLIB SETA 1" --pred
-efine="__UVISION_VERSION SETA 517" --predefine="_RTE_ SETA 1" --predefine="STM3
-2F303xC SETA 1" --list=startup_stm32f303xc.lst startup_stm32f303xc.s
+.o -IC:\Users\gxyjo\Desktop\stm32_Android\stm32_fft_timer\stm32_fft\MDK-ARM\RTE
+ -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil
+\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include --predefine="__M
+ICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 517" --predefine="_RTE_ SET
+A 1" --predefine="STM32F303xC SETA 1" --list=startup_stm32f303xc.lst startup_st
+m32f303xc.s
 
 
 

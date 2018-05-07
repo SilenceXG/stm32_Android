@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'stm32_fft' 
+ * Project: 'stm32_uart_send' 
  * Target:  'stm32_fft' 
  */
 

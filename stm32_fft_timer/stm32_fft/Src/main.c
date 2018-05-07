@@ -425,7 +425,8 @@ int main(void)
   {
     while (1);
   }
-	printf("Time elapsed: %f\n ms", (float)final_time/10 );
+	printf("Time elapsed: %f\r\n ms", (float)final_time/10 );
+	printf("Max index is: %d\r\n", testIndex);
   while (1);                             /* main function does not return */
 
 
