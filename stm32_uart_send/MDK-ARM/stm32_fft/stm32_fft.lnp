@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"stm32_fft\startup_stm32f303xc.o"
+"stm32_fft\system_stm32f3xx.o"
+"stm32_fft\stm32f3xx_hal_i2c_ex.o"
+"stm32_fft\stm32f3xx_hal_pwr_ex.o"
+"stm32_fft\stm32f3xx_hal_i2c.o"
+"stm32_fft\stm32f3xx_hal_rcc_ex.o"
+"stm32_fft\stm32f3xx_hal_pwr.o"
+"stm32_fft\stm32f3xx_hal_uart.o"
+"stm32_fft\stm32f3xx_hal_tim.o"
+"stm32_fft\stm32f3xx_hal_tim_ex.o"
+"stm32_fft\stm32f3xx_hal_gpio.o"
+"stm32_fft\stm32f3xx_hal_dma.o"
+"stm32_fft\stm32f3xx_hal_cortex.o"
+"stm32_fft\stm32f3xx_hal_uart_ex.o"
+"stm32_fft\stm32f3xx_hal_flash_ex.o"
+"stm32_fft\stm32f3xx_hal_rcc.o"
+"stm32_fft\stm32f3xx_hal.o"
+"stm32_fft\stm32f3xx_hal_flash.o"
+"stm32_fft\main.o"
+"stm32_fft\stm32f3xx_it.o"
+"stm32_fft\stm32f3xx_hal_msp.o"
+"C:\Keil_v5_crack\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+--library_type=microlib --strict --scatter "stm32_fft\stm32_fft.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32_fft.map" -o stm32_fft\stm32_fft.axf
